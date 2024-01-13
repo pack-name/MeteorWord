@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)https://mc.9val.cn/ -->
+<html lang="zh" data-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+<!--    <script>
+	var a = navigator.userAgent;
+	var isAndroid = a.indexOf('Android') > -1 || a.indexOf('Adr') > -1; //android终端
+	var isiOS = !!a.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+	if(isAndroid){
+		 window.location.href="./i.html";
+	}
+	if(isiOS ){
+	     window.location.href="./i.html";
+	}
+</script>->
+  <!-- Required meta tags -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="Digebiz Responsive web template, Bootstrap Web Templates">
+  <title>Comet - 鼎毅云 - 陆上彗星服务器</title>
+<meta name="keywords" content="mc">
+<meta name="description" content="陆上彗星服务器">
+ <link href="./Comet - 鼎毅云 - 陆上彗星服务器_files/layui.css" rel="stylesheet">
+  <link href="http://cz.888802.xyz/fonts.googleapis.com/css2%3Ffamily=Hind+Siliguri:wght@300%3B400%3B600%3B700&amp;display=swap.css" rel="stylesheet">
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="./Comet - 鼎毅云 - 陆上彗星服务器_files/style-starter.css">
+  <link rel="stylesheet" href="./Comet - 鼎毅云 - 陆上彗星服务器_files/animate.css">
+  <link rel="stylesheet" href="./Comet - 鼎毅云 - 陆上彗星服务器_files/main.css">
+  <link rel="stylesheet" href="./Comet - 鼎毅云 - 陆上彗星服务器_files/youlian.css">
+<link id="myhkcss" rel="stylesheet" type="text/css" media="all" href="./Comet - 鼎毅云 - 陆上彗星服务器_files/playercss"></head>
+
+<body contenteditable="true">
+
+<!--
+<script src="./index.js"></script>
+<script>
+ swal('提示','Comet即将迎来新的时代，届时所有IP和端口将被重置，请通过官网重新添加。预计更新时间：2023年8月1日','success'); 
+ </script>-->
+
+  <!--header-->
+  <header id="site-header" class="fixed-top">
+    <!-- //top header -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg stroke px-0 py-lg-0">
+        <h1><a class="navbar-brand" href="https://mc.9val.cn/">
+                  Meteor<span class="sub-logo">world
+                </span></a></h1>
+        <!-- if logo is image enable this   
+    <a class="navbar-brand" href="#index.html">
+        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+    </a> -->
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mx-lg-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://mc.9val.cn/index.html">主页<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mc.9val.cn/wd/ip.html">获取IP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://mc.9val.cn/wd/jb.html">违规举报</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link" href="https://mc.9val.cn/about">关于我们</a>
+            </li>
+            
+            <!--/search-right-->
+            <li class="nav-item search-right ml-lg-3">
+              <!-- /header-top-inn-->
+              <div class="menu-overlay-left">
+                <div class="two-pops">
+                  <!-- overlay-menuv-menu -->
+                  <div class="overlay-menuv-hny">
+                    <input type="checkbox" id="op">
+                  </div>
+                </div>
+                <!-- overlay-menuv-menu -->
+            </div></li>
+            <!--//search-right-->
+          </ul>
+          <!--/right-btn-->
+          <div class="top-righthny-buttton">
+            <a class="btn btn-style btn-white mr-lg-5" href="https://qm.qq.com/cgi-bin/qm/qr?k=qniXmu5okjaJ3efGHYz3535hSJGchFCC&amp;authKey=nDXKafsDLOaDiFPHlXytv+bCqgeFcotIJXmKwup25WRe0EURUgOTxKRUYqlK3HGH&amp;noverify=0&amp;personal_qrcode_source=0">进入QQ群<span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+          </div>
+          <!--/right-btn-->
+        </div>
+        <!-- toggle switch for light and dark theme -->
+
+        <!-- //toggle switch for light and dark theme -->
+      </nav>
+    </div>
+  </header>
+  <!--/header-->
+  <!-- banner section -->
+  <section id="home" class="w3l-banner py-5">
+    <div class="container py-lg-5 py-md-4 mt-lg-0 mt-md-4">
+      <div class="w3l-banner-content py-lg-5 py-4 mt-md-4">
+        <div class="pt-md-5 pt-lg-4 mt-4 align-items-lg-center">
+          <div class="bannerhny-info">
+            <h6 class="title-subhny mb-3">| 流星世界 | 我的世界中国版服务器 |</h6>
+            <h3 class="">Meteorworld 流星世界</h3>
+            <a class="btn btn-style btn-outline-light mt-sm-5 mt-4" href="minecraft:?addExternalServer=Comet|S8X.52MC.PRO:10060">
+              添加服务器 <span class="fa fa-long-arrow-right ml-3" aria-hidden="true"></span></a>
+<h6 class="title-subhny mb-3">点击“添加服务器”立即畅享游戏世界。</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //banner section -->
+  <!--/w3l-clients-->
+  <section class="w3l-clients" id="clients">
+    <div class="container">
+      <div class="call-w3">
+<h2><center><font color="#E80017">Mi</font><font color="#D1002E">ne</font><font color="#BA0045">Cr</font><font color="#A3005C">af</font><font color="#8C0073">t</font><font color="#75008A">中国</font><font color="#5E00A1"></font><font color="#4700B8">版</font><font color="#3000CF">服</font><font color="#1900E6">务器</font></center></h2><br>
+<a class="btn btn-style btn-white mr-lg-5" href="http://blog.9val.cn/forum/105">官方论坛</a><a class="btn btn-style btn-white mr-lg-5" href="http://s8x.52mc.pro:10069/index.php?title=%E9%A6%96%E9%A1%B5">官方Wiki</a><a class="btn btn-style btn-white mr-lg-5" href="http://pay.9val.cn/">赞助服务器</a><a class="btn btn-style btn-white mr-lg-5" href="https://mc.9val.cn/wd/txz.html">
+通行证</a><a class="btn btn-style btn-white mr-lg-5" href="https://mc.9val.cn/wd/xc.html">服务器风采</a><a class="btn btn-style btn-white mr-lg-5" href="http://pan.9val.cn/down.php/74c1070c225ac6360b17f706c4fcea4b.pdf">宣传文档</a>
+
+      </div>
+    </div>
+  </section>
+  <!--//w3l-clients-->
+  <!-- //w3l-inner-page-breadcrumb-->
+
+  
+
+<section id="team" class="section-padding text-center">
+<div class="container">
+<div class="section-header text-center">
+<h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">服务器<a href="https://mc.9val.cn/">玩法</a></h2>
+<p>Meteorworld服务器玩法内容</p>
+</div>
+<div class="row">
+<div class="col-sm-6 col-md-6 col-lg-3">
+<div class="team-item text-center wow fadeInRight animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="team-img">
+
+<img class="img-fluid" src="./Comet - 鼎毅云 - 陆上彗星服务器_files/aa7c4fa5ebca481addc8134d33fa4729" alt="">
+
+</div>
+<div class="info-text">
+
+<h3><a href="https://mc.9val.cn/#">生存服务器</a></h3>
+<p>经典生存服务器，内置领地、公会、传送等插件。</p>
+<p>需获取白名单进入服务器<a href="https://qm.qq.com/cgi-bin/qm/qr?k=qniXmu5okjaJ3efGHYz3535hSJGchFCC&amp;authKey=nDXKafsDLOaDiFPHlXytv+bCqgeFcotIJXmKwup25WRe0EURUgOTxKRUYqlK3HGH&amp;noverify=0&amp;personal_qrcode_source=0">点击获取</a></p>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-3">
+<div class="team-item text-center wow fadeInRight animated" data-wow-delay="0.6s" style="visibility: visible;-webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+<div class="team-img">
+<img class="img-fluid" src="./Comet - 鼎毅云 - 陆上彗星服务器_files/033283da0b5782e0bb2b2205a017b470" alt="">
+
+</div>
+<div class="info-text">
+<h3><a href="https://mc.9val.cn/#">空岛服务器</a></h3>
+<p>经典空岛生存服务器，内置交易、特殊玩法</p>
+<p>需获取白名单进入服务器<a href="https://qm.qq.com/cgi-bin/qm/qr?k=qniXmu5okjaJ3efGHYz3535hSJGchFCC&amp;authKey=nDXKafsDLOaDiFPHlXytv+bCqgeFcotIJXmKwup25WRe0EURUgOTxKRUYqlK3HGH&amp;noverify=0&amp;personal_qrcode_source=0">点击获取</a></p>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-3">
+<div class="team-item text-center wow fadeInRight animated" data-wow-delay="0.9s" style="visibility: visible;-webkit-animation-delay: 0.9s; -moz-animation-delay: 0.9s; animation-delay: 0.9s;">
+<div class="team-img">
+<img class="img-fluid" src="./Comet - 鼎毅云 - 陆上彗星服务器_files/e7b9029146e33ee8df90ebfc3fa81e08" alt="">
+
+</div>
+<div class="info-text">
+<h3><a href="https://mc.9val.cn/#">Gunfight Elite</a></h3>
+<p>枪战服务器，原创地图，原创玩法，极致体验！</p>
+<p>丰富玩法离不开创作者们的辛勤付出<a href="https://mc.9val.cn/#">点击查看</a>所有创作者（没做呢，别点了）</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-3">
+<div class="team-item text-center wow fadeInRight animated" data-wow-delay="1.2s" style="visibility: visible;-webkit-animation-delay: 1.2s; -moz-animation-delay: 1.2s; animation-delay: 1.2s;">
+<div class="team-img">
+<img class="img-fluid" src="./Comet - 鼎毅云 - 陆上彗星服务器_files/5eebf189fc0c2ce9d542189e21bd9ab3" alt="">
+
+</div>
+<div class="info-text">
+<h3><a href="https://mc.9val.cn/#">更多玩法……</a></h3>
+<p>更多玩法，敬请期待！</p>
+<p>您有好的建议，请<a href="https://qm.qq.com/cgi-bin/qm/qr?k=qniXmu5okjaJ3efGHYz3535hSJGchFCC&amp;authKey=nDXKafsDLOaDiFPHlXytv+bCqgeFcotIJXmKwup25WRe0EURUgOTxKRUYqlK3HGH&amp;noverify=0&amp;personal_qrcode_source=0">点击此处</a>告诉我们</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="blog" class="section-padding">
+
+<div class="container">
+<div class="section-header text-center">
+<h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">下载游戏</h2>
+<p>在这里，下载合适的游戏版本吧</p>
+</div>
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 blog-item">
+<div class="blog-item-wrapper wow fadeInLeft animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="blog-item-img">
+
+</div>
+<div class="blog-item-text">
+<h3>
+
+<a href="https://mc.9val.cn/#">安卓手机用户</a>
+</h3>
+<p>
+Minecraft Bedrock Eeition Android 
+</p>
+
+<a href="https://mc.9val.cn/xz/indexandroid.html" class="btn btn-common btn-rm">前往下载</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 blog-item">
+<div class="blog-item-wrapper wow fadeInUp animated" data-wow-delay="0.6s" style="visibility: visible;-webkit-animation-delay: 0.6s; -moz-animation-delay: 0.6s; animation-delay: 0.6s;">
+<div class="blog-item-img">
+</div>
+<div class="blog-item-text">
+<h3>
+<a href="https://mc.9val.cn/#">苹果手机/电脑用户</a>
+</h3>
+<p>
+Minecraft Bedrock Eeition iPhone iPad Mic IOS<br>
+<a href="https://cn.bing.com/search?q=IOS%E6%80%8E%E4%B9%88%E4%B8%8B%E8%BD%BD%E5%9B%BD%E9%99%85%E7%89%88%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C">获取下载教程</a><br>
+<a href="https://www.xgjs.top/">获取共享账号</a>
+</p>
+<a href="https://apps.apple.com/us/app/minecraft/id479516143" class="btn btn-common btn-rm">正版下载</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 blog-item">
+<div class="blog-item-wrapper wow fadeInRight animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+<div class="blog-item-img">
+</div>
+<div class="blog-item-text">
+<h3>
+<a href="https://mc.9val.cn/#">电脑用户</a>
+</h3>
+<p>
+Minecraft Bedrock Eeition Windows
+</p>
+<a href="https://mc.9val.cn/xz/indexpc.html" class="btn btn-common btn-rm">前往下载</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+  <!-- /home-services-->
+
+  <section class="home-services py-5">
+    <div class="container py-md-5 py-2">
+        <div class="section-header text-center">
+<h2 class="section-title wow fadeInDown animated" data-wow-delay="0.3s" style="visibility: visible;-webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">友情链接/何为Minecraft</h2>
+</div>
+          <div class="row">
+            <div class="box-wrap col-md-6 col-sm-12">
+              <div class="box-wrap-grid text-left">
+                <div class="icon mb-3">
+                  <span class="fa fa-paint-brush"></span>
+                </div>
+                <div class="info">
+                  <h4><a href="https://www.pueh.cc/">PUEH我的世界服务器</a></h4>
+                </div>
+                <p class="mt-2">生存RGP/小游戏 <br><a href="https://www.pueh.cc/" class="btn btn-common btn-rm">访问官网</a></p>
+              </div>
+            </div>
+            <div class="box-wrap col-md-6 col-sm-12">
+              <div class="box-wrap-grid text-left">
+                <div class="icon mb-3">
+                  <span class="fa fa-paint-brush"></span>
+                </div>
+                <div class="info">
+                  <h4><a href="https://www.bilibili.com/video/BV1TA411J7CK/?spm_id_from=333.337.search-card.all.click&amp;vd_source=d7f206a5713dfd2dfa208eea22fd7367">像素中华</a></h4>
+                </div>
+                <p class="mt-2">GN work的建筑师联合创作像素中华项目<br><a href="https://www.bilibili.com/video/BV1TA411J7CK/?spm_id_from=333.337.search-card.all.click&amp;vd_source=d7f206a5713dfd2dfa208eea22fd7367" class="btn btn-common btn-rm">访问</a></p>
+              </div>
+            </div>
+            <div class="box-wrap col-md-6 col-sm-12">
+              <div class="box-wrap-grid text-left">
+                <div class="icon mb-3">
+                  <span class="fa fa-paint-brush"></span>
+                </div>
+                <div class="info">
+                  <h4><a href="https://mc.9val.cn/#url">待添加</a></h4>
+                </div>
+                <p class="mt-2">待添加</p>
+              </div>
+            </div>
+            <div class="box-wrap col-md-6 col-sm-12">
+              <div class="box-wrap-grid text-left">
+                <div class="icon mb-3">
+                  <span class="fa fa-paint-brush"></span>
+                </div>
+                <div class="info">
+                  <h4><a href="https://mc.9val.cn/#url">待添加</a></h4>
+                </div>
+                <p class="mt-2">待添加</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    
+  </section>
+  <section class="w3l-clients-1" id="testimonials">
+    <!-- /grids -->
+    
+      
+      <!-- /grids -->
+    
+    <!-- //grids -->
+  </section>
+  <!-- //testimonials -->
+  <!--/address-->
+  <section class="home-w3l-content py-5">
+    <div class="container">
+      <div class="row home-w3l-content-grids">
+        <div class="col-lg-4 home-w3l-content-grid mt-lg-0 mt-4">
+          <h5 class="">联系我们</h5>
+          <p class="home-w3l-content-grid-inf">
+            QQ群 : <span class="fa fa-qq"></span> <a href="email:vip_mail@qq.com">674767893</a>
+          </p>
+
+        </div>
+        <div class="col-lg-4 home-w3l-content-grid px-lg-4 mt-lg-0 mt-4">
+          <h5 class="">关于我们</h5>
+          <p>运营团队：<a href="http://mc.9val.cn/" target="_blank">Meteorword流星世界项目组</a></p>
+          <p>版权归属：<a href="http://www.9val.cn/" target="_blank">Wenjiang District dingyi cloud Trade Department.</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--//address-->
+  <!-- footer -->
+  <section class="w3l-footer-29-main">
+    <div class="footer-29 py-5">
+      <div class="container py-lg-3">
+        <div class="row footer-top-29">
+          <div class="col-lg-4 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4 pr-lg-5">
+            <div class="footer-logo mb-3">
+              <h2><a class="navbar-brand" href="https://mc.9val.cn/">
+                  Meteor<span class="sub-logo">world
+                </span></a>
+              </h2>
+            </div>
+            <p>Meteorword流星世界项目组</p>
+          </div>
+          <div class="col-lg-8 footerw3l-right pl-lg-5">
+            <div class="row no-gutters mt-5">
+              <div class="col-lg-4 col-sm-6 footer-list-29 footer-2 mt-lg-0 mt-md-5 mt-4">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //footer -->
+  <!-- copyright -->
+  <section class="w3l-copyright">
+    <div class="container">
+      <div class="bottom-copies text-center">
+        <p class=" copy-footer-29"><a href="https://beian.miit.gov.cn/" class="xl"><img src="./Comet - 鼎毅云 - 陆上彗星服务器_files/P020180125352909923830.png" width="25" height="25"> 京ICP备2021038274号-4</a><br>
+<a href="https://icp.gov.moe/?keyword=20220126" target="_blank"><img src="./Comet - 鼎毅云 - 陆上彗星服务器_files/ico64.png" width="25" height="25">萌ICP备20220126号</a><br><br>© 2023 鼎毅云  <span class="fa fa-heart" aria-hidden="true"></span> by<a href="http://1.9vdg.vip/" target="_blank">&nbsp;</a></p>
+      </div>
+    </div>
+
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top" style="display: none;">
+      ⤴
+    </button>
+    <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("movetop").style.display = "block";
+        } else {
+          document.getElementById("movetop").style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!-- /move top -->
+  </section>
+  <!-- //copyright -->
+  <!--//footer-->
+  <!-- Template JavaScript -->
+  <script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/jquery-3.3.1.min.js.下载"></script>
+  <script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/theme-change.js.下载"></script>
+  <script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/owl.carousel.js.下载"></script><!-- owl carousel -->
+  <!-- script for tesimonials carousel slider -->
+  <script>
+    $(document).ready(function () {
+      $("#owl-demo1").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: false,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          1000: {
+            items: 2,
+            nav: false,
+            loop: false
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script for tesimonials carousel slider -->
+  <!-- stats number counter-->
+  <script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/jquery.waypoints.min.js.下载"></script>
+  <script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/jquery.countup.js.下载"></script>
+  <script>
+    $('.counter').countUp();
+  </script>
+  <!-- //stats number counter -->
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+  <!--/MENU-JS-->
+  <script>
+    $(window).on("scroll", function () {
+      var scroll = $(window).scrollTop();
+
+      if (scroll >= 80) {
+        $("#site-header").addClass("nav-fixed");
+      } else {
+        $("#site-header").removeClass("nav-fixed");
+      }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+      $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+      if ($(window).width() > 991) {
+        $("header").removeClass("active");
+      }
+      $(window).on("resize", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+      });
+    });
+  </script>
+  <!--//MENU-JS-->
+  <script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/bootstrap.min.js.下载"></script>
+
+
+<script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/jquery.min.js.下载" type="text/javascript"></script>
+<script src="./Comet - 鼎毅云 - 陆上彗星服务器_files/168139458327" id="myhk" key="168139458327" m="1"></script><div id="myhkplayer" style="display: none; background: rgba(91, 93, 100, 0.8);" class="myhkshow">
+    
+    <div class="myhkplaylist" style="color: rgb(255, 255, 255);">
+        <div class="myhkplaylist-bd">
+            <div class="album-list">
+                <div class="musicheader" style="color: rgb(255, 255, 255);">欢迎访问-鼎毅</div>
+                <div class="myhklist mCustomScrollbar _mCS_2"><div class="mCustomScrollBox mCS-light" id="mCSB_2" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container mCS_no_scrollbar" style="position:relative; top:0;"><ul><li class="myhknow" style="color: rgb(255, 255, 255);"><span class="index">1</span><span class="artist">当前播放&nbsp;&gt;&nbsp;</span>交换余生_雷电交加版 - 林俊杰</li><li style="color: rgb(255, 255, 255);"><span class="index">2</span><span class="artist"></span>CALL ME BABY - EXO</li></ul></div><div class="mCSB_scrollTools" style="position: absolute; display: none;"><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position:relative;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+            </div>
+            <div class="song-list">
+                <div class="musicheader" style="color: rgb(255, 255, 255);"><i class="myhkfont myhkicon-arrow-right-bold"></i><span></span></div>
+                <div class="myhklist mCustomScrollbar _mCS_1"><div class="mCustomScrollBox mCS-light" id="mCSB_1" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container mCS_no_scrollbar" style="position:relative; top:0;">
+                    <ul></ul>
+                </div><div class="mCSB_scrollTools" style="position: absolute; display: none;"><div class="mCSB_draggerContainer"><div class="mCSB_dragger" style="position: absolute; top: 0px;" oncontextmenu="return false;"><div class="mCSB_dragger_bar" style="position:relative;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<div id="myhkKsc" style="background: rgba(91, 93, 100, 0.3);"></div>
+<div id="myhkLrc" style="background: rgba(91, 93, 100, 0.3);"><ul><li class="myhkLrc0 myhknow" style="color:rgba(166,252,20)!important"></li><li class="myhkLrc1 1319">交换余生 (No Turning Back)  林俊杰 (JJ Lin)</li><li class="myhkLrc1320 590">词：易家扬</li><li class="myhkLrc1910 880">曲：林俊杰 JJ LIN</li><li class="myhkLrc2790 2790">编曲 &amp; 键盘 MUSIC ARRANGEMENT &amp; KEYBOARDS：简道生Dawson Chien/蔡政勋 Andy Tsai</li><li class="myhkLrc5580 1320">制作人 PRODUCER：林俊杰 JJ LIN</li><li class="myhkLrc6900 1620">配唱制作 VOCAL PRODUCTION：林俊杰 JJ LIN</li><li class="myhkLrc8520 2650">制作协力 PRODUCTION ASSISTANCE：黄冠龙 ALEX.D/周信廷 SHiN CHOU/蔡沛蓁</li><li class="myhkLrc11170 1610">弦乐编写 STRINGS ARRANGEMENT：王韵筑 Liv Wang</li><li class="myhkLrc12780 1180">弦乐 STRINGS：李琪弦乐团</li><li class="myhkLrc13960 1030">吉他 GUITAR：黄冠龙 ALEX.D</li><li class="myhkLrc14990 1320">低音吉他 BASS GUITAR：寗子达</li><li class="myhkLrc16310 590">鼓 DRUMS：Brendan Buckley</li><li class="myhkLrc16900 1760">和声编写 BACKGROUND VOCAL ARRANGEMENT：林俊杰 JJ LIN</li><li class="myhkLrc18660 1330">和声 BACKGROUND VOCALS：林俊杰 JJ LIN</li><li class="myhkLrc19990 1910">录音室 RECORDING STUDIOS：JFJ SANCTUARY (Taipei)/THE JFJ LAB (Taipei)/Smile录音棚 (Beijing)/East West Studios (Los Angeles)</li><li class="myhkLrc21900 2940">录音师 RECORDING ENGINEERS：林俊杰 JJ LIN/周信廷 SHiN CHOU/李杰汇/Wil Anspach</li><li class="myhkLrc24840 1620">鼓组音频编辑 ADDITIONAL DRUMS ENGINEERING：Buckley Buckley</li><li class="myhkLrc26460 1020">混音室 MIXING STUDIO：mixHaus (Encino, CA)</li><li class="myhkLrc27480 1030">混音师 MIXING ENGINEER：Richard Furch</li><li class="myhkLrc28510 2360">后期母带处理制作人 MASTERING PRODUCER：林俊杰 JJ LIN</li><li class="myhkLrc30870 2200">后期母带处理录音室 MASTERING STUDIO：Bernie Grundman Mastering, LA</li><li class="myhkLrc33070 1">后期母带处理录音师 MASTERING ENGINEER：Mike Bozzi</li><li class="myhkLrc33071 1919"></li><li class="myhkLrc34990 2360">孤单听雨的猫</li><li class="myhkLrc37350 4050">往时间裂缝里看到了我</li><li class="myhkLrc41400 1310"></li><li class="myhkLrc42710 4930">雷电交加之外的另一些我</li><li class="myhkLrc47640 2430"></li><li class="myhkLrc50070 6220">乌云静止以后 跳进平行时空</li><li class="myhkLrc56290 3960">那些我 旅行中的你我</li><li class="myhkLrc60250 7190">回忆胡乱穿梭 坠落</li><li class="myhkLrc67440 1960"></li><li class="myhkLrc69400 7470">交换余生 是我 非我 苦与乐</li><li class="myhkLrc76870 6220">阴天之后总有续命的晴空</li><li class="myhkLrc83090 890"></li><li class="myhkLrc83980 7620">如果我们几经转折 结局一样不动</li><li class="myhkLrc91600 7700">也才算无愧这分合</li><li class="myhkLrc99300 26240"></li><li class="myhkLrc125540 2330">定位心海的锚</li><li class="myhkLrc127870 4440">让时间停顿的像慢动作</li><li class="myhkLrc132310 880"></li><li class="myhkLrc133190 4690">你说命运很坏吧幸好有我</li><li class="myhkLrc137880 2290"></li><li class="myhkLrc140170 6640">如果没有以后 如果平行失控</li><li class="myhkLrc146810 3800">那些我 不同人生的我</li><li class="myhkLrc150610 7190">会以什么方式 哭过</li><li class="myhkLrc157800 7700">交换余生 是我 非我 苦与乐</li><li class="myhkLrc165500 6190">阴天之后总有续命的晴空</li><li class="myhkLrc171690 1060"></li><li class="myhkLrc172750 7630">如果我们几经转折 结局一样不动</li><li class="myhkLrc180380 7390">也才算无愧这分合</li><li class="myhkLrc187770 5980">云等风 人等梦 爱辗过时光等什么</li><li class="myhkLrc193750 1690"></li><li class="myhkLrc195440 6040">记不住 认不出 泪眼中谁一样脸红</li><li class="myhkLrc201480 1020"></li><li class="myhkLrc202500 5980">等你说 等我说 一等就是一个宇宙</li><li class="myhkLrc208480 920"></li><li class="myhkLrc209400 6700">日升换月落 真爱换寂寞</li><li class="myhkLrc216100 1020"></li><li class="myhkLrc217120 7080">交换余生 也许 忘了 第几梦</li><li class="myhkLrc224200 6970">那时我们身处第几号时空</li><li class="myhkLrc231170 790"></li><li class="myhkLrc231960 7690">因为我们手心紧握 记忆也能紧扣</li><li class="myhkLrc239650 6930">可不怕前方的虫洞</li><li class="myhkLrc246580 730"></li><li class="myhkLrc247310 NaN">爱是时间的古董</li></ul></div>
+<script>
+  fetch('https://myhkw.cn/open/ip?key=e2bbf611778f4ab5961dfb5f02b5e57e&type=json')
+</script>
+
+
+
+
+</body></html>
